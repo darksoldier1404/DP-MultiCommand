@@ -1,0 +1,8 @@
+Settings:
+  prefix: "&f[ &6DMC &f] "
+
+  Commands:
+    test:
+      - "say hello world"
+      - "DELAY:10"
+      - "say hello world again~"

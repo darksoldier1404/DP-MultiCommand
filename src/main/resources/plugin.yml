@@ -1,0 +1,9 @@
+name: DP-MultiCommand
+version: 1.0.0.0
+main: com.darksoldier1404.dmc.MultiCommand
+api-version: 1.13
+authors: [ DEAD_POOLIO_ ]
+depend:
+  - DPP-Core
+commands:
+  dmc:
