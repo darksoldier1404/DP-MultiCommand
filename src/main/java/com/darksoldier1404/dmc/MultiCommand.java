@@ -64,9 +64,10 @@ public class MultiCommand extends JavaPlugin implements Listener, CommandExecuto
                         c = c.replace("<op>", "");
                         String finalC = c;
                         Bukkit.getScheduler().runTaskLater(plugin, () -> {
+                            boolean originOp = p.isOp();
                             p.setOp(true);
                             p.performCommand(finalC);
-                            p.setOp(false);
+                            p.setOp(originOp);
                         }, delay);
                     }else{
                         if(c.contains("<cs_console>")) {
